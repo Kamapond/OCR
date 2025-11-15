@@ -1,5 +1,8 @@
 #Mistral OCR sample
 
+#ライブラリインストール必要なら
+#pip install mistralai httpx python-dotenv pillow
+
 from __future__ import annotations
 import os, json, base64, hashlib
 from pathlib import Path
